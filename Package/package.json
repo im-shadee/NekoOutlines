@@ -1,0 +1,23 @@
+{
+  "name": "com.shade.nekooutlines",
+  "version": "1.0.0",
+  "displayName": "NekoOutlines",
+  "description": "Customizable outline and silhouettes effects 2D toolkit.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Shade"
+  },
+  "license": "MIT",
+  "licensesUrl": "https://github.com/im-shadee/NekoOutlines/raw/main/LICENSE",
+  "documentationUrl": "https://github.com/im-shadee/NekoOutlines",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo Scenes",
+      "description": "Example scenes and UI/sprite elements using the outline shader.",
+      "path": "Samples~"
+    }
+  ]
+}
