@@ -5,14 +5,14 @@ using NekoOutlines.Runtime;
 
 namespace NekoOutlines.Editor
 {
-    [CustomEditor(typeof(NekoOutline))]
+    [CustomEditor(typeof(NekoOutlineBase), true)]
     public class NekoOutlineEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
 
-            NekoOutline outlineScript = (NekoOutline)target;
+            NekoOutlineBase outlineScript = (NekoOutlineBase)target;
 
             EditorGUILayout.Space(10f);
 
